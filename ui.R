@@ -26,7 +26,8 @@ shinyUI(pageWithSidebar(
       tabPanel("Moose",id="Moose",textOutput("MOOS_TXT"), plotOutput("MOOS_MAP"), DT::dataTableOutput('MOOS_TAB'), DT::dataTableOutput("MOOS_TAB1"), plotOutput("MOOS_DF"),plotOutput("MOOS_QQ")),
       tabPanel("Mule Deer", id="Mule Deer", textOutput("MUDE_TXT"), plotOutput("MUDE_MAP"), DT::dataTableOutput('MUDE_TAB'), plotOutput("MD_DF"),plotOutput("MUDE_QQ")),
       tabPanel("White-tailed Deer", id="White-tailed Deer", textOutput("WTDE_TXT"),  plotOutput("WTDE_MAP"), DT::dataTableOutput("WTDE_TAB"), plotOutput("WTDE_DF"), plotOutput("WTDE_QQ")),
-      tabPanel("Elk", id="Elk", textOutput("WAPT_TXT"), plotOutput("WAPT_MAP"),DT::dataTableOutput("WAPT_TAB"), plotOutput("WAPT_DF"), plotOutput("WAPT_QQ")),
+      tabPanel("Elk", id="Elk", textOutput("WAPT_TXT"), plotOutput("WAPT_MAP"),DT::dataTableOutput("WAPT_TAB"), plotOutput("WAPT_DF"), plotOutput("WAPT_QQ")),#,DT::dataTableOutput("WAPT_TAB"), plotOutput("WAPT_DF"), plotOutput("WAPT_QQ")),
+      tabPanel("Horses", id="Horses", textOutput("HORS_TXT"), plotOutput("HORS_MAP"),DT::dataTableOutput("HORS_TAB"), plotOutput("HORS_DF"), plotOutput("HORS_QQ")),#,DT::dataTableOutput("WAPT_TAB"), plotOutput("WAPT_DF"), plotOutput("WAPT_QQ")),
       tabPanel("Power analysis")
 
     ))
